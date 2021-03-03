@@ -35,4 +35,6 @@ def read_dataset(filename: Path) -> Dataset:
     return converter.structure(data, Dataset)
 
 
-converter.register_structure_hook(date, lambda value, _: datetime.strptime(value, "%Y-%m-%d").date())
+converter.register_structure_hook(
+    date, lambda value, _: datetime.strptime(value, "%Y-%m-%d").date()
+)
