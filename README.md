@@ -104,7 +104,7 @@ As you will discover, the app is not ready for production quite yet! The goals o
 3. Write some tests to give us confidence the app is working (hint: edge cases!).
    Use your judgement to decide what types of test to focus on: unit, integration or E2E.
 
-## Running the app locally
+## Running the app
 
 Create a virtualenv and install the requirements:
 
