@@ -75,7 +75,7 @@ curl -X POST http://localhost:5000/compute --data '{"sample": 2000, "area_code":
 
 Note: the probabilities it produces are "just for fun", don't take them too seriously!
 
-## Tour
+## Overview 🔭
 
 The app is written in Python using the Flask framework.
 
