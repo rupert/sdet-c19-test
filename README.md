@@ -83,11 +83,12 @@ The app is written in Python using the Flask framework.
 covid_app/
   model.py       ← module to compute probabilities
   dataset.py     ← module to read the dataset from the filesystem
+  validation.py  ← validate incoming requests
 
 tests/
   unit/          ← unit tests
   integration/   ← integration tests
-  system/        ← system tests (aka E2E)
+  e2e/           ← end to end tests
 
 app.py           ← API views
 data.json        ← number of new cases per day and nation
@@ -96,7 +97,7 @@ requirements.txt ← Python dependencies
 
 ## Goals 🎯
 
-As you will discover, the app is not ready for production quite yet. The goals of this exercise are to:
+As you will discover, the app is not ready for production quite yet! The goals of this exercise are to:
 
 1. Talk through the code and explain what it does
 2. Run the application, and make a request with `curl`
