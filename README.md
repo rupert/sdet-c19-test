@@ -83,7 +83,7 @@ The app is written in Python using the Flask framework.
 covid_app/
   model.py       ← module to compute probabilities
   dataset.py     ← module to read the dataset from the filesystem
-  validation.py  ← validate incoming requests
+  validation.py  ← module to validate incoming requests
 
 tests/
   unit/          ← unit tests
