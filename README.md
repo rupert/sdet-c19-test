@@ -99,9 +99,10 @@ requirements.txt ← Python dependencies
 
 As you will discover, the app is not ready for production quite yet! The goals of this exercise are to:
 
-1. Talk through the code and explain what it does
-2. Run the application, and make a request with `curl`
-3. Write some tests to give us confidence the app is working (hint: edge cases!)
+1. Talk through the code and explain what it does.
+2. Run the application, and make a request with `curl`.
+3. Write some tests to give us confidence the app is working (hint: edge cases!).
+   Use your judgement to decide what types of test to focus on: unit, integration or E2E.
 
 ## Running the app locally
 
@@ -141,4 +142,4 @@ Or just the unit tests (for example) with:
 pytest tests/unit
 ```
 
-Note: the system tests expect the app to be running and listening on `localhost:5000`.
+Note: the E2E tests expect the app to be running and listening on `localhost:5000`.
