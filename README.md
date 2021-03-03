@@ -1,4 +1,4 @@
-# SDET COVID-19 Coding Test
+# SDET COVID-19 Coding Test 🦠
 
 The app estimates the chance that at least one COVID-19 positive
 individual will be present at a event of a given size. For example:
