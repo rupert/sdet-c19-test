@@ -13,6 +13,11 @@ dataset = read_dataset(Path(__file__).parent / "data.json")
 
 @app.route("/compute", methods=["POST"])
 def compute():
+    """
+    Compute the probability of at least one COVID-19 positive
+    individual being present at an event of a given size.
+    """
+
     body = request.get_json(force=True)
 
     try:
