@@ -15,7 +15,7 @@ def compute_probability(
 ) -> float:
     """
     Given a group of people gather on a particular date and area of the country, compute
-    the probability at least one person currently has coronavirus.
+    the probability at least one person currently having coronavirus.
 
     Args:
         dataset: the dataset used to compute the probability.
